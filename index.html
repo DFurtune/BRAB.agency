@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BRAB.agency</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+  </head>
+  <body>
+    <!-- SLIDER -->
+    <div class="slider single-item">
+      <div class="slider__item">
+        <div class="slider__item-text">
+          <span>01</span>
+          <p class="subtitle">Ремонт</p>
+          <h2>Ванная комната</h2>
+          <p class="subscribe">
+            Краткое описание проекта. Мы выполняем ремонты любой сложности по
+            готовому чертежу, при этом максимально придерживаясь проекта. Все
+            работы проводятся по принципу «открытого чека» — с предоставлением
+            всех счетов, без накруток и изменения цен.
+          </p>
+        </div>
+        <div class="slider__item-img">
+          <img src="./img/slider/slide1.jpg" alt="" />
+          <div class="item-link">
+            <a class="link" href="">
+              <div class="link-box">
+                <img src="./img/slider/Rectangle33.jpg" alt="" />
+                <div class="box-text">
+                  <p>Следующий проект</p>
+                  <small>Дизайн спальной комнаты</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="slider__item">
+        <div class="slider__item-text">
+          <span>02</span>
+          <p class="subtitle">Строительство</p>
+          <h2>загородный Дом</h2>
+          <p class="subscribe">
+            Краткое описание проекта. <br />
+            Мы выполняем ремонты любой сложности по готовому чертежу, при этом
+            максимально придерживаясь проекта. Все работы проводятся по принципу
+            «открытого чека» — с предоставлением всех счетов, без накруток и
+            изменения цен.
+          </p>
+        </div>
+        <div class="slider__item-img">
+          <img src="./img/slider/slide2.jpg" alt="" />
+          <div class="item-link">
+            <a class="link" href="">
+              <div class="link-box">
+                <img src="./img/slider/Rectangle34.jpg" alt="" />
+                <div class="box-text">
+                  <p>Следующий проект</p>
+                  <small>Загородный дом</small>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FORM -->
+    <section class="back-form">
+      <div class="container">
+        <div class="container__text">
+          <h3>
+            Сделайте шаг к созданию дома вашей мечты.<br />Позвоните нам или
+            оставьте номер телефона и мы обсудим все ваши пожелания.
+          </h3>
+        </div>
+        <div class="container__input">
+          <div class="input-form">
+            <input type="text" / placeholder="Имя"> <input type="tel" /
+            placeholder="Телефон">
+            <select name="works" id="">
+              <option value="" disabled selected hidden>Вид работы</option>
+              <option value="">Строительство</option>
+              <option value="">Дизайнерский ремонт</option>
+            </select>
+          </div>
+          <button class="send-btn">ОТПРАВИТЬ</button>
+        </div>
+      </div>
+    </section>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <script src="./slick/slick.min.js"></script>
+    <script>
+      $(".single-item").slick({
+        arrows: true,
+      });
+    </script>
+  </body>
+</html>

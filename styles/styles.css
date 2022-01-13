@@ -1,0 +1,189 @@
+.back-form {
+  background-image: url(../../img/Rectangle18.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1796px;
+  width: 100%;
+  height: 639px;
+}
+
+.container {
+  width: 87%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 10%;
+}
+
+.container__text {
+  width: 52.69%;
+  padding: auto 0;
+}
+
+.container__text h3 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 51px;
+  color: #ffffff;
+}
+
+.container__input {
+  width: 33.57%;
+  height: 385px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container__input .input-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 270px;
+}
+
+.container__input .input-form > * {
+  height: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.container__input .input-form input {
+  padding-left: 20px;
+}
+
+.container__input .input-form input::-webkit-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  color: #04040e;
+  opacity: 0.5;
+}
+
+.container__input .input-form input:-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #04040e;
+  opacity: 0.5;
+}
+
+.container__input .input-form input::-ms-input-placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #04040e;
+  opacity: 0.5;
+}
+
+.container__input .input-form input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #04040e;
+  opacity: 0.5;
+}
+
+.container__input .input-form select {
+  width: 100%;
+  padding-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #04040e;
+  position: relative;
+}
+
+.container__input .input-form select ::after {
+  content: url("../../img/Arrow4.svg");
+  position: absolute;
+  z-index: 1;
+  right: 8px;
+  top: 4px;
+}
+
+.container__input .send-btn {
+  height: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slider__item {
+    display: block;
+  }
+  .slick-initialized .slick-slide {
+    display: block;
+  }
+  .slider__item-text {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
